@@ -12,12 +12,21 @@
       <a href="#mealBook">Meal Booking</a>
       <a href="#">Market</a>
       <a href="#help">Help</a>
+      <a href="#help">Log Out</a>
       <div class="animation start-home"></div>
     </nav>
     
     <!-- No of days remaining dial -->
     <div class="countdown" id="home">
-
+      <div class="cntdwn">
+      <form>
+            <label for="total">How many breakfasts did you pay for this month?</label>
+            <input class = "cntdwnForm" type="text" id="total">
+            <label for="consumed">How many breakfasts have you consumed this month?</label>
+            <input class = "cntdwnForm" type="text" id="consumed">
+            <input type="submit" value="SUBMIT"/>
+          </form>
+      </div>
     </div>
 
     <!-- Meal booking -->
@@ -46,20 +55,22 @@
      </div>
     </div>
 
-    <!-- Footer -->
-    <div class="footer">
-      <p>Project By <a class="link" href="#"> Gayatri Rout </a>, <a class="link" href="#"> Manyapu Shreya </a>, <a class="link" href="#"> Tatwamasi Mishra </a>, <a class="link" href="#"> Yashica Pradhan </a></p>
+    <!-- Contact Form -->
+   <div class="contactForm">
+     <div class="mailbg">
+     <form>
+       <h3>Need Help? Reach out to us immediately !</h3>
+       <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+       <input name="email" type="text" class="feedback-input" placeholder="Email" />
+       <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+       <input type="submit" value="SUBMIT"/>
+     </form>
+     </div>
    </div>
 
-   <!-- Contact Form -->
-   <div class="mailbg">
-	  <label class="l1" for="mailinput">Your Email:</label>
-  	<input class="mailinput" aria-label="Your Email" autocomplete="on" type="email" placeholder="">
-  	<label class="l2" for="messtxt">Your Message:</label>
-  	<textarea class="messtxt" aria-label="Your Message" placeholder=""></textarea>
-  	<button class="sendmess" aria-label="Send message">Send<div class="bar"></div></button>
-  	<div class="success">Message sent successfully.<br><br>Thanks!</div>
-  	<button class="closemess" aria-label="Close Form">Close</div></button>
+    <!-- Footer -->
+    <div class="footer">
+      <p>Project By <br><a class="link" href="#"> Gayatri Rout </a>, <a class="link" href="#"> Manyapu Shreya </a>, <a class="link" href="#"> Tatwamasi Mishra </a>, <a class="link" href="#"> Yashica Pradhan </a></p>
    </div>
 
 </body>
