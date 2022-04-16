@@ -22,13 +22,26 @@
     <div class="username">
       <p>Hey <a>Gayatri Rout!</a></p>
     </div>
-    <div class="cntdwn">
+    <div id="dialContain" class="dialContainer">
+      <div class="dial">
+        <div class="dialText">
+          <div class="cntDisplay">
+            <p>15</p>
+          </div>
+          <div class="daysLeft">
+            <p>Days Left</p>
+          </div>
+          <p class="brekkie">Breakfast Count</p>
+        </div>
+      </div>
+    </div>
+    <div id = "triggerBtn" class="cntdwn">
       <form>
         <label for="total">How many breakfasts did you pay for this month?</label>
         <input class="cntdwnForm" type="text" id="total">
         <label for="consumed">How many breakfasts have you consumed this month?</label>
         <input class="cntdwnForm" type="text" id="consumed">
-        <input type="submit" value="SUBMIT" />
+        <input onclick="toggleFunction()" type="submit" value="SUBMIT" />
       </form>
     </div>
   </div>
@@ -80,7 +93,7 @@
         <div class="row">
           <div class="column one">
             <p><button class="btn2">Open Now</button></p>
-            <p><button class="myBtn_multi" >See Menu</button></p>
+            <p><button class="myBtn_multi">See Menu</button></p>
             <div class="modal modal_multi">
               <!-- Modal content -->
               <div class="modal-content">
@@ -92,15 +105,14 @@
           </div>
           <div class="column two">
             <h2>Scheduled Timings</h2>
-            <p><b>Breakfast: </b>8am - 9:45am</p>
-            <p><b>Lunch: </b>12:30pm - 2:30pm</p>
-            <p><b>Dinner: </b>5pm - 8pm</p>
+            <p><b>Opening Time: </b>11am</p>
+            <p><b>Closing Time: </b>10pm</p>
           </div>
         </div>
       </div>
 
       <div id="Tab 3" class="tabcontent">
-      <div class="row">
+        <div class="row">
           <div class="column one">
             <p><button class="btn2">Open Now</button></p>
             <p><button class="myBtn_multi">See Menu</button></p>
@@ -117,15 +129,14 @@
           </div>
           <div class="column two">
             <h2>Scheduled Timings</h2>
-            <p><b>Breakfast: </b>8am - 9:45am</p>
-            <p><b>Lunch: </b>12:30pm - 2:30pm</p>
-            <p><b>Dinner: </b>5pm - 8pm</p>
+            <p><b>Opening Time: </b>10am</p>
+            <p><b>Closing Time: </b>10pm</p>
           </div>
         </div>
       </div>
 
       <div id="Tab 4" class="tabcontent">
-      <div class="row">
+        <div class="row">
           <div class="column one">
             <p><button class="btn2">Open Now</button></p>
             <p><button class="myBtn_multi">See Menu</button></p>
@@ -142,9 +153,8 @@
           </div>
           <div class="column two">
             <h2>Scheduled Timings</h2>
-            <p><b>Breakfast: </b>8am - 9:45am</p>
-            <p><b>Lunch: </b>12:30pm - 2:30pm</p>
-            <p><b>Dinner: </b>5pm - 8pm</p>
+            <p><b>Opening Time: </b>12pm</p>
+            <p><b>Closing Time: </b>10pm</p>
           </div>
         </div>
       </div>
@@ -199,4 +209,6 @@
 <script type="text/javascript" src="BookBtn.js"></script>
 <script type="text/javascript" src="Tabs.js"></script>
 <script type="text/javascript" src="PopUpMenu.js"></script>
+<script type="text/javascript" src="Dial.js"></script>
+
 </html>
