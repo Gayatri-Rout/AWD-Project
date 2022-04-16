@@ -19,6 +19,9 @@
 
   <!-- No of days remaining dial -->
   <div class="countdown" id="home">
+    <div class="username">
+      <p>Hey <a>Gayatri Rout!</a></p>
+    </div>
     <div class="cntdwn">
       <form>
         <label for="total">How many breakfasts did you pay for this month?</label>
@@ -56,7 +59,7 @@
             <div class="modal" id="myModal">
               <!-- Modal content -->
               <div class="modal-content">
-                <span class="close2">&times;</span>
+                <span class="close">&times;</span>
                 <img src="mess menu.jpeg">
                 <br>
                 <img src="mess menu.jpeg">
@@ -81,7 +84,7 @@
             <div class="modal" id="myModal2">
               <!-- Modal content -->
               <div class="modal-content">
-                <span class="close">&times;</span>
+                <span class="close2">&times;</span>
                 <img src="mess menu.jpeg">
                 <br>
                 <img src="mess menu.jpeg">
@@ -175,5 +178,6 @@
 <script type="text/javascript" src="Navbar.js"></script>
 <script type="text/javascript" src="BookBtn.js"></script>
 <script type="text/javascript" src="Tabs.js"></script>
-<script type="text/javascript" src="PopUpMenu2.js"></script> <script type="text/javascript" src="PopUpMenu.js"></script>
+<script type="text/javascript" src="PopUpMenu2.js"></script>
+<script type="text/javascript" src="PopUpMenu.js"></script>
 </html>
