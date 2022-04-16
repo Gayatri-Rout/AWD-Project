@@ -55,11 +55,11 @@
         <div class="row">
           <div class="column one">
             <p><button class="btn2">Open Now</button></p>
-            <p><button class="btn2" id="seeMenu">See Menu</button></p>
-            <div class="modal" id="myModal">
+            <p><button class="myBtn_multi">See Menu</button></p>
+            <div class="modal modal_multi">
               <!-- Modal content -->
               <div class="modal-content">
-                <span class="close">&times;</span>
+                <span class="close close_multi">&times;</span>
                 <img src="mess menu.jpeg">
                 <br>
                 <img src="mess menu.jpeg">
@@ -80,14 +80,12 @@
         <div class="row">
           <div class="column one">
             <p><button class="btn2">Open Now</button></p>
-            <p><button class="btn2" id="seeMenu2">See Menu</button></p>
-            <div class="modal" id="myModal2">
+            <p><button class="myBtn_multi" >See Menu</button></p>
+            <div class="modal modal_multi">
               <!-- Modal content -->
               <div class="modal-content">
-                <span class="close2">&times;</span>
-                <img src="mess menu.jpeg">
-                <br>
-                <img src="mess menu.jpeg">
+                <span class="close close_multi">&times;</span>
+                <img src="basant menu.jpeg">
               </div>
 
             </div>
@@ -102,29 +100,51 @@
       </div>
 
       <div id="Tab 3" class="tabcontent">
-        <div class="row">
+      <div class="row">
           <div class="column one">
+            <p><button class="btn2">Open Now</button></p>
+            <p><button class="myBtn_multi">See Menu</button></p>
+            <div class="modal modal_multi">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close close_multi">&times;</span>
+                <img src="Aditya menu.jpeg">
+                <br>
+                <img src="Aditya menu 2.jpeg">
+              </div>
 
-            <button class="btn2">Open Now</button>
-
+            </div>
           </div>
           <div class="column two">
-            <h2>Column 2</h2>
-            <p>Some text..</p>
+            <h2>Scheduled Timings</h2>
+            <p><b>Breakfast: </b>8am - 9:45am</p>
+            <p><b>Lunch: </b>12:30pm - 2:30pm</p>
+            <p><b>Dinner: </b>5pm - 8pm</p>
           </div>
         </div>
       </div>
 
       <div id="Tab 4" class="tabcontent">
-        <div class="row">
+      <div class="row">
           <div class="column one">
-
             <p><button class="btn2">Open Now</button></p>
+            <p><button class="myBtn_multi">See Menu</button></p>
+            <div class="modal modal_multi">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close close_multi">&times;</span>
+                <img src="mess menu.jpeg">
+                <br>
+                <img src="mess menu.jpeg">
+              </div>
 
+            </div>
           </div>
           <div class="column two">
-            <h2>Column 2</h2>
-            <p>Some text..</p>
+            <h2>Scheduled Timings</h2>
+            <p><b>Breakfast: </b>8am - 9:45am</p>
+            <p><b>Lunch: </b>12:30pm - 2:30pm</p>
+            <p><b>Dinner: </b>5pm - 8pm</p>
           </div>
         </div>
       </div>
@@ -178,6 +198,5 @@
 <script type="text/javascript" src="Navbar.js"></script>
 <script type="text/javascript" src="BookBtn.js"></script>
 <script type="text/javascript" src="Tabs.js"></script>
-<script type="text/javascript" src="PopUpMenu2.js"></script>
 <script type="text/javascript" src="PopUpMenu.js"></script>
 </html>
